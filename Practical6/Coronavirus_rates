@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+labels='USA','India','Brazil','Russia','UK'
+#each country
+sizes=[29862124,11285561,11205972,4360823,4234924]
+#total cases of each country
+plt.axis('equal')
+#output(-1.0103290418066457, 1.0000000068192239, -1.0149906861916158, 1.0076988$
+plt.show()
