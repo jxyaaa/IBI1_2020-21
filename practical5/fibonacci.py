@@ -3,7 +3,7 @@ two=1
 current=0
 i=1
 #set initial values
-while i<=12:
+while i<=13:
      if i<3:
              current=1
      else:
@@ -26,4 +26,4 @@ while i<=12:
 55
 89
 144
-
+233
