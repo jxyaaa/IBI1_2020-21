@@ -15,9 +15,11 @@ p=False
 while p==False:
 	p = True
 	n = randint(1,100)
+#select a number between 1 and 100
 	if n > 50:
 #compare the size between n and 50
 		p = False
+#until the number less than 50 is selected
 
 print(n)
 
