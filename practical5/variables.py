@@ -6,3 +6,12 @@ d=a-c
 e=a-b
 print(d)
 print(e) 
+
+if d==e:
+  print("d=e")
+elif d>=e:
+  print("d>e")
+else :
+  print("d<e")
+  
+  
