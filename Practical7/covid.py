@@ -74,3 +74,4 @@ plt.ylabel("number")
 plt.title(" new cases and new deaths")
 plt.legend()
 plt.show()
+#plot total cases and new cases in Spain
