@@ -9,7 +9,7 @@ print(covid_data.iloc[0:12:2,:])
 
 L=[]
 for i in range(0,7996):
-    if covid_data.iloc[i,l] == "Afghanistan":
+    if covid_data.iloc[i,1] == "Afghanistan":
         L.append(True)
     else:
         L.append(False)
@@ -17,7 +17,7 @@ print(covid_data.loc[L,"total cases”])
 
 world_data = []
 for i in range(0,7996):
-    if covid_data.iloc[i,l] == "World":
+    if covid_data.iloc[i,1] == "World":
         world_data.append(True)
     else:
         world_data.append(False)
