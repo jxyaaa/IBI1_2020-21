@@ -50,3 +50,6 @@ plt.ylabel("number")
 plt.title(" new cases and new deaths")
 plt.legend()
 plt.show()
+
+
+#question.txt
