@@ -53,3 +53,24 @@ plt.show()
 
 
 #question.txt
+S=[]
+for i in range(0,7996):
+    if covid_data.iloc[i,1] == "Spain":
+        S.append(True)
+    else:
+        S.append(False)
+print(covid_data.loc[S,"total_cases"])
+print(covid_data.loc[S,"new_cases"])
+
+total_cases=covid_data.loc[S,"total_cases"]
+new_cases=covid_data.loc[S,"new_cases"]
+Spain_dates=covid_data.loc[S,"date"]
+
+plt.plot(Spain_dates,total_cases,'b+',label = "Spain total cases")
+plt.plot(Spain_dates,new_cases,'r+',label = "Spain new cases")
+plt.xticks(Spain_dates.iloc[0:len(Spain_dates):4], rotation=-90)
+plt.xlabel("date")
+plt.ylabel("number")
+plt.title(" new cases and new deaths")
+plt.legend()
+plt.show()
