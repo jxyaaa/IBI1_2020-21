@@ -24,6 +24,8 @@ for i in range(0,7996):
 print(covid_data.loc[world_data,"total_cases"])
 
 world_new_cases=covid_data.loc[world_data,"new_cases"]
+mean = np.mean(world_new_cases)
+median = np.median(world_new_cases)
 print('the mean of new cases is:',world_new_cases.mean())
 print('the median new cases is:',world_new_cases.median())
 plt.boxplot(world_new_cases)
@@ -32,8 +34,11 @@ plt.ylabel("number")
 plt.title(" the distribution of new cases")
 plt.show()
 
-plt.plot(world_dates,world_new_cases,'b+',label = "world new cases")
-plt.plot(world_dates,world_new_deaths,'r+',label = "world new deaths")
+world_dates=covid_data.loc[world_data,"date"]
+world_new_deaths=covid_data.loc[world_data,"new_deaths"]
+
+plt.plot(world_dates,world_new_cases,'b-',label = "world new cases")
+plt.plot(world_dates,world_new_deaths,'r-',label = "world new deaths")
 plt.xticks(world_dates.iloc[0:len(world_dates):4], rotation=-90)
 plt.xlabel("date")
 plt.ylabel("number")
