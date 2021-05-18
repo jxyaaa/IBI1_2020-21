@@ -6,6 +6,7 @@ os.chdir("/Users/jiang/Desktop")
 
 covid_data = pd.read_csv("full_data.csv")
 print(covid_data.iloc[0:12:2,:])
+#make it between 0 and 10
 
 L=[]
 for i in range(0,7996):
@@ -25,10 +26,13 @@ print(covid_data.loc[world_data,"total_cases"])
 
 world_new_cases=covid_data.loc[world_data,"new_cases"]
 mean = np.mean(world_new_cases)
+#calculate the mean
 median = np.median(world_new_cases)
+#calculate the median
 print('the mean of new cases is:',world_new_cases.mean())
 print('the median new cases is:',world_new_cases.median())
 plt.boxplot(world_new_cases)
+#draw a boxplot
 plt.xlabel(" new cases")
 plt.ylabel("number")
 plt.title(" the distribution of new cases")
