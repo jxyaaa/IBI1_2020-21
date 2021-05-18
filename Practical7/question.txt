@@ -1,1 +1,2 @@
 How have new cases and total cases developed over time in Spain?
+As can be seen from the figure, the number of cases in Spain began to increase rapidly from around March 8. The number of total cases continued to increase, with the number of new cases increasing first, and gradually decreased after around March 27.
