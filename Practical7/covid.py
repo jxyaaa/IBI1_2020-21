@@ -40,6 +40,7 @@ plt.show()
 
 world_dates=covid_data.loc[world_data,"date"]
 world_new_deaths=covid_data.loc[world_data,"new_deaths"]
+#store the data
 
 plt.plot(world_dates,world_new_cases,'b-',label = "world new cases")
 plt.plot(world_dates,world_new_deaths,'r-',label = "world new deaths")
