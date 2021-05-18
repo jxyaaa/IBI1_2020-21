@@ -1,1 +1,14 @@
+    def reverse(seq):
+#input data
+    list_seq=list(seq)
+#create a list
+    DNA=''
+    for i in range(len(list_seq)-1,-1,-1)
+        T={'C':'G','G':'C','A':'T','T':'A'}
+        code=seq[i]
+        DNA=DNA+T[code]
+        DNA = "".join(list_seq)
+    return print(DNA)
 
+reverse("AGCGaGCtTCGACT")
+#an example
