@@ -13,7 +13,7 @@ for i in range(0,7996):
         L.append(True)
     else:
         L.append(False)
-print(covid_data.loc[L,"total cases”])
+print(covid_data.loc[L,"total_cases"])
 
 world_data = []
 for i in range(0,7996):
