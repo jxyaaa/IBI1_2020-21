@@ -21,7 +21,7 @@ for i in range(0,7996):
         world_data.append(True)
     else:
         world_data.append(False)
-print(covid_data.loc[world_data,"total cases”])
+print(covid_data.loc[world_data,"total_cases"])
 world_new_cases=covid_data.iloc[world_data,"new_cases"]
 print('the mean of new cases is:',world_new_cases.mean())
 print('the median new cases is:',world_new_cases.median())
