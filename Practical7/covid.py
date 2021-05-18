@@ -65,6 +65,7 @@ print(covid_data.loc[S,"new_cases"])
 total_cases=covid_data.loc[S,"total_cases"]
 new_cases=covid_data.loc[S,"new_cases"]
 Spain_dates=covid_data.loc[S,"date"]
+#store the data
 
 plt.plot(Spain_dates,total_cases,'b+',label = "Spain total cases")
 plt.plot(Spain_dates,new_cases,'r+',label = "Spain new cases")
