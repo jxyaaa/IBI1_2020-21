@@ -1,1 +1,26 @@
+Sequence for human
+MLSRAVCGTSRQLAPVLAYLGSRQKHSLPDLPYDYGALEPHINAQIMQLHHSKHHAAYVNNLNVTEEKYQEALAKGDVTAQIALQPALKFNGGGHINHSIFWTNLSPNGGGEPKGELLEAIKRDFGSFDKFKEKLTAASVGVQGSGWGWLGFNKERGHLQIAACPNQDPLQGTTGLI PLLGIDVWEHAYYLQYKNVRPDYLKAIWNVINWENVTERYMACKK 
+Sequence of a mouse
+MLCRAACSTGRRLGPVAGAAGSRHKHSLPDLPYDYGALEPHINAQIMQLHHSKHHAAYVNNLNATEEKYHEALAKGDVTTQVALQPALKFNGGGHINHTIFWTNLSPKGGGEPKGELLEAIKRDFGSFEKFKEKLTAVSVGVQGSGWGWLGFNKEQGRLQIAACSNQDPLQGTTG LIPLLGIDVWEHAYYLQYKNVRPDYLKAIWNVINWENVTERYTACKK 
+A random sequence
+WNGFSEWWTHEVDYNQKLTIENNQRPKIHEHEQWGLRQSPPPPKLCCPTCQMCERMRHQNRFAPLMEVGCRCMCWFHDWWVISVGTWLHTVIMYMMWPKRFHHNECPKACFRTTYTRKNHHALYWMLFEMCCYDQDVVWSKTHIFTTVRDIEVYVEQVFFIWGPLCHV AIACYEPVKTIRRRIPMYLCRHCIRGDNSYLLACCSIIYYFYHHMSYYGVLDIL 
 
+
+the matrix score
+between human and mouse is 1091
+between human and random seq is -250
+between mouse and random seq is -250
+
+the percentage 
+between human and mouse is 89.63963963963964%
+between human and random seq is 5.405405405405405%
+between mouse and random seq is 5.8558558558558556%
+
+
+Analysis 
+From the results, it can be seen that the amino acid sequences of human and mouse are more similar than those of random sequences. Maybe that’s because evolution.
+All species have the same origin, so human and mice are genetically similar.
+
+There are differences in protein sequences between humans and mice, which may be due to factors such as genetic mutations. Genetic and chromosomal mutations and so on are the raw materials of evolution, and they lead to species diversity.
+
+Different gene sequences lead to different types and functions of proteins, resulting in different characteristics in both human and mouse species.
